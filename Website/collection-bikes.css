@@ -1,0 +1,115 @@
+body{
+    background: rgba(0, 0, 0, 0.6) url('15 blur.png') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.topbar ul{
+    margin-left: 48%;
+    margin-top: -5%;
+}
+.topbar ul li{
+    display: inline;
+}
+
+.topbar ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.topbar a:hover{
+    color: #e94b82;
+}
+.box img{
+    width: 100px;
+    height: 100px;
+    
+}
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.button3{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom:-1%;
+    margin-top:-3%;
+    text-align: start;
+    width: 100px;
+    height: 100px;
+}
+.button3 img{
+    width: 40px;
+    height: 40px;
+}
+.button3 img:hover{
+    background-color: brown;
+    border-radius: 100px;
+}
+.box{
+    background: #db7979;
+    border: 2px solid;
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgba(79, 79, 79, 0.5);
+    justify-items: center;
+    align-items: center;
+    transition: 0.5s;
+    text-decoration: none;
+    text-align: center;
+}
+.container{
+    margin: auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow:dense;
+    padding: 10px;
+    row-gap: 20px;
+    column-gap: 150px;
+    justify-content:center;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+h3{
+    text-align: center;
+    color: #ffffff;
+}
+span{
+    color: rgb(129, 12, 12);
+}
+.box img{
+    width: 200px;
+    height: 200px;
+    
+}
+.center{
+    display:inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.box:hover{
+    transform: scale(1.05);
+    color: aquamarine;
+    box-shadow: 4px 4px 4px #ffffff;
+}
+.name{
+    font-size: 40px;
+    color: aquamarine;
+    margin-left: -39%;
+    margin-bottom: -8%;
+}
+.test1{
+    font-family: 'Phudu';
+    color: #ffffff;
+}
+.test2{
+    font-family: 'Phudu';
+    color: #e94b82;
+}
